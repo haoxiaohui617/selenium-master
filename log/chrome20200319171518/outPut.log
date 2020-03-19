@@ -1,0 +1,12 @@
+2020-03-19 17:15:19,175  - INFO - ----  test001_µÇÂ¼Ê§°Ü_div.container>ul>li:nth-child(2)_css_click_         ----
+2020-03-19 17:15:19,938  - INFO - ----  test001_µÇÂ¼Ê§°Ü_input-lg_class_name_send_keys_lose1        ----
+2020-03-19 17:15:20,643  - INFO - ----  test001_µÇÂ¼Ê§°Ü_user_password_id_send_keys_1231231232        ----
+2020-03-19 17:15:21,244  - INFO - ----  test001_µÇÂ¼Ê§°Ü_div.form-actions_css_click_         ----
+2020-03-19 17:15:21,840  - INFO - ----  test001_µÇÂ¼Ê§°Ü_div.alert-warning_css_ _         ----
+2020-03-19 17:15:21,840  - INFO - [CheckPoint_1]: testALoginFail_ : OK
+2020-03-19 17:15:22,366  - INFO - ----  test001_µÇÂ¼³É¹¦_div.container>ul>li:nth-child(2)_css_click_         ----
+2020-03-19 17:15:22,437  - INFO - ----  test001_µÇÂ¼³É¹¦_input-lg_class_name_send_keys_haoxiaohui617        ----
+2020-03-19 17:15:23,023  - INFO - ----  test001_µÇÂ¼³É¹¦_user_password_id_send_keys_haitai@123        ----
+2020-03-19 17:15:23,641  - INFO - ----  test001_µÇÂ¼³É¹¦_div.form-actions_css_click_         ----
+2020-03-19 17:15:24,723  - INFO - ----  test001_µÇÂ¼³É¹¦_dropdown-avatar_class_name_click_         ----
+2020-03-19 17:15:44,991  - INFO - [CheckPoint_2]: testBLogin_==¼ì²éµã_²éÕÒÓÃ»§Ãûlose³É¹¦Ê§°Ü£¬Çë¼ì²é_//ul[@class='dropdown-menu']/li/a[contains(text(),'lose')]==: NG
