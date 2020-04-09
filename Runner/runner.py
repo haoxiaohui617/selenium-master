@@ -13,9 +13,9 @@ from TestCase.CnblogsTest import CnblogsTest
 def runnerCaseApp():
     start_time = datetime.now()
     suite = unittest.TestSuite()
-    suite.addTest(ParametrizedTestCase.parametrize(HomeTest))
+    #suite.addTest(ParametrizedTestCase.parametrize(HomeTest))
     #suite.addTest(ParametrizedTestCase.parametrize(MyTest))
-    # suite.addTest(ParametrizedTestCase.parametrize(CnblogsTest))
+    suite.addTest(ParametrizedTestCase.parametrize(CnblogsTest))
     unittest.TextTestRunner(verbosity=2).run(suite)
     end_time = datetime.now()
     countDate(datetime.now().strftime('%Y-%m-%d %H:%M:%S'), str((end_time - start_time).seconds) + "秒")

@@ -26,4 +26,4 @@ testcase:
 check:
     - element_info: div.alert-warning
       find_type: css
-      info: 出现错误的密码登录不成功提示框
+      info: 出现错误的登录不成功提示框

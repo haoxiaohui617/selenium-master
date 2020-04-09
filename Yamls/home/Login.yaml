@@ -1,23 +1,23 @@
 testinfo:
-    - id: test001
+    - id: test002
       title: 登录成功
       info: 打开testerhome
 testcase:
-    - element_info: div.container>ul>li:nth-child(2)
-      find_type: css
+    - element_info: //*[@id="span_userinfo"]/a[1]
+      find_type: xpath
       operate_type: click
       info: 点击登录
-    - element_info: input-lg
-      find_type: class_name
-      operate_type: send_keys
-      msg: haoxiaohui617
-      info: 输入用户名haoxiaohui617
-    - element_info: user_password
+    - element_info: LoginName
       find_type: id
       operate_type: send_keys
-      msg: haitai@123
-      info: 输入密码haitai@123
-    - element_info: div.form-actions
+      msg: haoxiaohui
+      info: 输入用户名haoxiaohui
+    - element_info: Password
+      find_type: id
+      operate_type: send_keys
+      msg: haoxiaohui1
+      info: 输入密码haoxiaohui1
+    - element_info: submitBtn > span.ladda-label
       find_type: css
       operate_type: click
       info: 点击登录
@@ -27,6 +27,6 @@ testcase:
       info: 点击图像
 
 check:
-    - element_info: //ul[@class='dropdown-menu']/li/a[contains(text(),'lose')]
+    - element_info: //ul[@class='dropdown-menu']/li/a[contains(text(),'haoxiaohui617')]
       find_type: xpath
-      info: 查找用户名lose成功
+      info: 查找用户名haoxiaohui617成功
